@@ -1,10 +1,5 @@
 import argparse
 
-def sqr(n):
-  """ Find square of a number
-  """
-  return n*n
-
 def parse_args():
   """ Parse arguments for program
   """
