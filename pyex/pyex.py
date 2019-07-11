@@ -1,11 +1,13 @@
-def sqr(n):
-  """ Find square of a number
-  """
-  return n*n
+import re
 
 def main():
 
-  print("Square of 2 is {}".format(sqr(2)))
+  str = "Hello World"
+
+  if(re.fullmatch(".*el.*",str)):
+    print("Matched")
+  else:
+    print("Not Matched")
 
 if __name__ == "__main__":
   main()
